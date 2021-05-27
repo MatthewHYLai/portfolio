@@ -1,0 +1,68 @@
+$breakpoint-tablet: 1024px;
+@media (max-width: $breakpoint-tablet) {
+    .main {
+        .indexContentWrap{
+            width: 100vw;
+            height: 100vh;
+    
+            &>div{
+
+                .cover{
+                    width: 80%;
+                    height: 200px;
+                    position: absolute;
+                    top: calc((100vh - 200px)/2);
+                    left: 10%;
+
+                
+                }
+        
+                .indexLogoDragArea{
+                    position: absolute;
+                    width: 700px;
+                    height: 700px;
+                    right: 10%;
+                    top: calc((100% - 700px)/2);
+                    
+                    // background: white;
+    
+                    .indexLogoDrag {
+                        width: 500px;
+                        height: 500px;
+                        position: absolute;
+                        top: calc((100% - 500px)/2);
+                        left: calc((100% - 500px)/2);
+                        opacity: 0.5;
+                        transition: opacity 0.2s;
+    
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                    
+                }
+    
+            }
+    
+        }
+    
+        .contentOuterWrap {
+            &.aboutContentWrap{
+                .contentWrap {
+                    .content {
+                        .textWrap{
+                            width: 100%;
+                            margin-right: 0;
+                        }
+                        .skillsWrap {
+                            width: 100%;
+                        }
+                    }
+    
+                }
+
+            }
+        }
+
+    }
+}

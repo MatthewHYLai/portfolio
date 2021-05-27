@@ -1,0 +1,48 @@
+* {
+    padding:0; 
+    border:0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+html, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { 
+    margin: 0; padding: 0; 
+}
+table { 
+    width:100%; 
+    border-collapse:collapse; 
+    border-spacing:0; 
+}
+table, th, td { 
+    border:0; 
+    margin: 0; 
+    padding: 0;
+}
+img { 
+    border: 0 none; 
+    vertical-align: top; 
+    width:auto; 
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+li { 
+    list-style-type:inherit; 
+}
+button { 
+    cursor: pointer; 
+    background: transparent; 
+    background: #bab8a3; 
+    color: white;
+}
+a{
+    &:link{
+        text-decoration: none;
+        color: inherit;
+    }
+    &:visited{
+        color: inherit;
+    }
+}
